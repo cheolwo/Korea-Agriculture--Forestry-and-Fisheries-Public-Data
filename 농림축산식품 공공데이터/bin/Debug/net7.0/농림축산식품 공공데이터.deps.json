@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "농림축산식품 공공데이터/1.0.0": {
+        "runtime": {
+          "농림축산식품 공공데이터.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "농림축산식품 공공데이터/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
