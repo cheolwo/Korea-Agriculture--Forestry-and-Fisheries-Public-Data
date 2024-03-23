@@ -1,8 +1,4 @@
-﻿using System;
-using System.Net.Http;
-using System.Threading.Tasks;
-
-namespace HSKItemMapping
+﻿namespace HSKItemMapping
 {
     public class HSK품목매핑목록조회Service
     {
