@@ -1,4 +1,8 @@
-﻿namespace 농림축산식품_공공데이터
+﻿using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+namespace HSKItemMapping
 {
     public class HSK품목매핑목록조회Service
     {
@@ -9,10 +13,10 @@
             _client = client ?? throw new ArgumentNullException(nameof(client));
         }
 
-        public async Task<string> GetHSKItemMappingAsync(string apiKey, string categoryCode, string productCode)
+        public async Task<string> GetHSKItemMappingAsync(string apiKey, int startIndex, int endIndex, string categoryCode, string productCode)
         {
             string apiUrl = "http://211.237.50.150:7080/openapi/sample/xml/Grid_20221207000000000652_1/1/5";
-            string queryData = $"?API_KEY={apiKey}&TYPE=json&CATGORY_CODE={categoryCode}&STD_PRDLST_CODE={productCode}";
+            string queryData = $"?API_KEY={apiKey}&TYPE=json&START_INDEX={startIndex}&END_INDEX={endIndex}&CATEGORY_CODE={categoryCode}&STD_PRDLST_CODE={productCode}";
             string requestUri = apiUrl + queryData;
 
             try
