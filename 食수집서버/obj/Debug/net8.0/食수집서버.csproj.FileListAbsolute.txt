@@ -1,0 +1,35 @@
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\appsettings.json
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\食수집서버.exe
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\食수집서버.deps.json
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\食수집서버.runtimeconfig.json
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\食수집서버.dll
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\食수집서버.pdb
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\농림축산식품 공공데이터.dll
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\bin\Debug\net8.0\농림축산식품 공공데이터.pdb
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\食수집서버.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\食수집서버.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\食수집서버.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\食수집서버.AssemblyInfo.cs
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\食수집서버.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\食수집서버.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\食수집서버.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\食수집서버.sourcelink.json
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\staticwebassets\msbuild.食수집서버.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\staticwebassets\msbuild.build.食수집서버.props
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.食수집서버.props
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.食수집서버.props
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\scopedcss\bundle\食수집서버.styles.css
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\食수집서버.csproj.Up2Date
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\食수집서버.dll
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\refint\食수집서버.dll
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\食수집서버.pdb
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\食수집서버.genruntimeconfig.cache
+C:\Users\user\Desktop\농축수산 공공데이터\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\食수집서버\obj\Debug\net8.0\ref\食수집서버.dll

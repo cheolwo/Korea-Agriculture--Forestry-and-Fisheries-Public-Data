@@ -1,8 +1,4 @@
-﻿using System;
-using System.Net.Http;
-using System.Threading.Tasks;
-
-namespace HSKItemMapping
+﻿namespace HSKItemMapping
 {
     public class HSK품목매핑목록조회Service
     {
@@ -13,10 +9,10 @@ namespace HSKItemMapping
             _client = client ?? throw new ArgumentNullException(nameof(client));
         }
 
-        public async Task<string> GetHSKItemMappingAsync(string apiKey, int startIndex, int endIndex, string categoryCode, string productCode)
+        public async Task<string> GetHSKItemMappingAsync(string apiKey, string type, int startIndex, int endIndex, string categoryCode, string productCode)
         {
-            string apiUrl = "http://211.237.50.150:7080/openapi/sample/xml/Grid_20221207000000000652_1/1/5";
-            string queryData = $"?API_KEY={apiKey}&TYPE=json&START_INDEX={startIndex}&END_INDEX={endIndex}&CATEGORY_CODE={categoryCode}&STD_PRDLST_CODE={productCode}";
+            string apiUrl = $"http://211.237.50.150:7080/openapi/{apiKey}/{type}/Grid_20221207000000000652_1/{startIndex}/{endIndex}";
+            string queryData = $"?CATGORY_CODE={categoryCode}&STD_PRDLST_CODE={productCode}";
             string requestUri = apiUrl + queryData;
 
             try
