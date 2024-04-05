@@ -12,7 +12,7 @@ class Program
         string apiUrl = "http://211.237.50.150:7080/openapi/sample/xml/Grid_20221207000000000652_1/1/5";
 
         // 쿼리 데이터 구성
-        string queryData = "?API_KEY=b7d7ea37f4a78231390d208fedd0a2ea1d78c967819a642885c664b391b1c0b6"
+        string queryData = "?API_KEY="
                          + "&TYPE=json"
                          + "&START_INDEX=1"
                          + "&END_INDEX=5"

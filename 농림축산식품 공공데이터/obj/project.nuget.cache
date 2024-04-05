@@ -1,21 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rzi77FqO0vkx9sEk/j86M8qIdBvFWv+P61fHelWaIaMcIRV4R477tF6E5VOtrscAAmoMXUbHHqgw6DLyFDdegQ==",
+  "dgSpecHash": "4DENxyE4f2iO44quPiWTflEBruaZaA9I3+2ElfDttdmnjCU11bqUis7GHBNg86GExakQVc3i35lzrtS162secg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\농축수산 공공데이터\\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\\농림축산식품 공공데이터\\농림축산식품 공공데이터.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.3\\microsoft.entityframeworkcore.8.0.3.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.3\\microsoft.entityframeworkcore.abstractions.8.0.3.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.3\\microsoft.entityframeworkcore.analyzers.8.0.3.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\power\\OneDrive\\Desktop\\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\\농림축산식품 공공데이터\\농림축산식품 공공데이터.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -5,10 +5,6 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "농림축산식품 공공데이터", "농림축산식품 공공데이터\농림축산식품 공공데이터.csproj", "{80FD796D-4706-4175-AA5B-E295EFFE6C97}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{204E0DA9-DCD6-4F72-8856-2F443E78C557}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "食수집서버", "食수집서버\食수집서버.csproj", "{571F80FA-781D-44C8-B441-8C287AB62F79}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{80FD796D-4706-4175-AA5B-E295EFFE6C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80FD796D-4706-4175-AA5B-E295EFFE6C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80FD796D-4706-4175-AA5B-E295EFFE6C97}.Release|Any CPU.Build.0 = Release|Any CPU
-		{204E0DA9-DCD6-4F72-8856-2F443E78C557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{204E0DA9-DCD6-4F72-8856-2F443E78C557}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{204E0DA9-DCD6-4F72-8856-2F443E78C557}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{204E0DA9-DCD6-4F72-8856-2F443E78C557}.Release|Any CPU.Build.0 = Release|Any CPU
-		{571F80FA-781D-44C8-B441-8C287AB62F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{571F80FA-781D-44C8-B441-8C287AB62F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{571F80FA-781D-44C8-B441-8C287AB62F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{571F80FA-781D-44C8-B441-8C287AB62F79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
