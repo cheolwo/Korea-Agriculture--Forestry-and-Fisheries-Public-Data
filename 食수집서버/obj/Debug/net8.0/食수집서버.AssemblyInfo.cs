@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("食수집서버")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01b3e20db4df71ab9eb6585c61c35f55ed65f604")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6af71c09ce989fd646eae2c4e738aa8e67b60eb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("食수집서버")]
 [assembly: System.Reflection.AssemblyTitleAttribute("食수집서버")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
