@@ -16,4 +16,11 @@
     <ProjectReference Include="..\..\..\CommonManagement\Common\Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="도매\RequestModel\" />
+    <Folder Include="산지\" />
+    <Folder Include="수입\" />
+    <Folder Include="소매\" />
+  </ItemGroup>
+
 </Project>

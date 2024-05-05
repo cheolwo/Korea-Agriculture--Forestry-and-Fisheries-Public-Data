@@ -7,9 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "농림축산식품 공공�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "..\..\CommonManagement\Common\Common.csproj", "{2B8FBA58-D0CC-47D9-BABA-D803FF315639}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{5ED1890F-0065-40F9-9072-F8F765F6874D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "食수집서버", "食수집서버\食수집서버.csproj", "{87782B73-976D-4CF5-9F41-67329E672F4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{5ED1890F-0065-40F9-9072-F8F765F6874D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{5ED1890F-0065-40F9-9072-F8F765F6874D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ED1890F-0065-40F9-9072-F8F765F6874D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ED1890F-0065-40F9-9072-F8F765F6874D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87782B73-976D-4CF5-9F41-67329E672F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87782B73-976D-4CF5-9F41-67329E672F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87782B73-976D-4CF5-9F41-67329E672F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87782B73-976D-4CF5-9F41-67329E672F4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

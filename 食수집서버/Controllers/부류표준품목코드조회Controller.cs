@@ -21,7 +21,7 @@ namespace 食수집서버.Controllers
         {
             try
             {
-                var result = await _service.GetLClassCodeAsync(type, startIndex, endIndex, lclassName, lclassCode);
+                var result = await _service.GetCodeInfoAsync(type, startIndex, endIndex, lclassName, lclassCode);
                 return Ok(result);
             }
             catch (HttpRequestException e)
