@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\食수집서버.props" />
-</Project>

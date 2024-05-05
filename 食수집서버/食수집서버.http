@@ -1,6 +1,0 @@
-@食수집서버_HostAddress = http://localhost:5009
-
-GET {{食수집서버_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
