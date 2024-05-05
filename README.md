@@ -1,3 +1,5 @@
+<h2 align="center"><strong><span style="color:red;">ER Diagram </span></strong></h2>
+
 ```mermaid
 erDiagram
     "Category" ||--o{ "Product" : "contains"
