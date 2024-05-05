@@ -16,12 +16,12 @@ erDiagram
     "품목" {
         string Name "품목명"
         string Code PK "품목코드"
-        string 부류코드 FK "부류코드"
+        string CategoryCode FK "부류코드"
     }
     "품종" {
         string Code PK "품종코드"
-        string "부류코드" FK "부류코드"
-        string "품목코드" FK "품목코드"
+        string CategoryCode FK "부류코드"
+        string ProductCode FK "품목코드"
     }
     "도매시장" {
         string Name "도매시장명"
@@ -29,17 +29,17 @@ erDiagram
         string Address "주소"
     }
     "도매법인" {
-        string "시장코드" FK "도매시장코드"
+        string WholeSaleMarketCode FK "도매시장코드"
     }
     "도매법인별경락가격" {
-        string "일자" PK "날짜"
-        string "가격" "가격"
-        string "도매법인코드" FK "도매법인코드"
-        string "품종코드" FK "품종코드"
-        string "등급코드" FK "등급코드"
+        string date PK "날짜"
+        string Price "가격"
+        string WholeSaleCompanyCode FK "도매법인코드"
+        string SpeciesCode FK "품종코드"
+        string GradeCode FK "등급코드"
     }
     "등급" {
-        string "ame "등급명"
+        string Name "등급명"
         string Code PK "등급코드"
     }
 
