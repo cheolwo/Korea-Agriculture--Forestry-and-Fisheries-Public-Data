@@ -10,23 +10,23 @@ erDiagram
     "도매법인" ||--|{ "도매시장" : "belongs to"
 
     "부류" {
-        string "Name" "부류명"
-        string "Code" PK "부류코드"
+        string Name "부류명"
+        string Code PK "부류코드"
     }
     "품목" {
-        string "Name" "품목명"
-        string "Code" PK "품목코드"
+        string Name "품목명"
+        string Code PK "품목코드"
         string "부류코드" FK "부류코드"
     }
     "품종" {
-        string "Code" PK "품종코드"
+        string Code PK "품종코드"
         string "부류코드" FK "부류코드"
         string "품목코드" FK "품목코드"
     }
     "도매시장" {
-        string "Name" "도매시장명"
-        string "Code" PK "도매시장코드"
-        string "Address" "주소"
+        string Name "도매시장명"
+        string Code PK "도매시장코드"
+        string Address "주소"
     }
     "도매법인" {
         string "시장코드" FK "도매시장코드"
@@ -39,8 +39,8 @@ erDiagram
         string "등급코드" FK "등급코드"
     }
     "등급" {
-        string "Name" "등급명"
-        string "Code" PK "등급코드"
+        string "ame "등급명"
+        string Code PK "등급코드"
     }
 
 
