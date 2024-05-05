@@ -24,12 +24,12 @@ erDiagram
     "품목" {
         string Name "이름"
         string Code PK "코드"
-        string 부류코드 FK "CategoryCode"
+        string CategoryCode FK "부류코드"
     }
     "품종" {
         string Code PK "코드"
-        string 부류코드 FK "CategoryCode"
-        string 품목코드 FK "ProductCode"
+        string CategoryCode FK "부류코드"
+        string ProductCode FK "품목코드"
     }
     "등급" {
         string Name "이름"
@@ -47,7 +47,7 @@ erDiagram
     "도매법인" {
         string Name "이름"
         string Code PK "코드"
-        string 시장코드 FK "MarketCode"
+        string MarketCode FK "시장코드"
     }
     "도매가격" {
         string Date PK "날짜"
@@ -62,6 +62,7 @@ erDiagram
         string GradeCode FK "등급코드"
         string StandardCode FK "규격코드"
     }
+
 
 
 ```
