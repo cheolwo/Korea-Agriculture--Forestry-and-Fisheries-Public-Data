@@ -16,7 +16,7 @@ erDiagram
     "품목" {
         string Name "품목명"
         string Code PK "품목코드"
-        string "부류코드" FK "부류코드"
+        string 부류코드 FK "부류코드"
     }
     "품종" {
         string Code PK "품종코드"
