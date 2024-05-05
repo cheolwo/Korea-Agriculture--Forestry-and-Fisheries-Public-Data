@@ -2,47 +2,65 @@
 
 ```mermaid
 erDiagram
-    "Category" ||--o{ "Product" : "contains"
-    "Product" ||--o{ "Variety" : "contains"
-    "Product" ||--|{ "Category" : "is part of"
-    "Variety" ||--|{ "Product" : "is part of"
-    "Variety" ||--o{ "WholesalePrice" : "has prices"
-    "WholesaleMarket" ||--o{ "WholesaleCompany" : "hosts"
-    "WholesaleCompany" ||--o{ "WholesalePrice" : "records prices"
-    "WholesaleCompany" ||--|{ "WholesaleMarket" : "belongs to"
+    "부류" ||--o{ "품목" : "contains"
+    "부류" ||--o{ "품종" : "contains"
+    "품목" ||--o{ "품종" : "contains"
+    "품목" ||--|| "부류" : "is part of"
+    "품종" ||--|| "부류" : "is part of"
+    "품종" ||--|| "품목" : "is part of"
+    "품종" ||--o{ "도매가격" : "has"
+    "도매시장" ||--o{ "도매법인" : "hosts"
+    "도매법인" ||--o{ "도매가격" : "has"
+    "도매법인" ||--|| "도매시장" : "is part of"
+    "도매가격" ||--|| "도매법인" : "is part of"
+    "도매가격" ||--|| "품종" : "is part of"
+    "도매가격" ||--|| "등급" : "has"
+    "도매가격" ||--|| "규격" : "has"
 
-    "Category" {
-        string Name "부류명"
-        string Code PK "부류코드"
+    "부류" {
+        string 이름 "Name"
+        string 코드 PK "Code"
     }
-    "Product" {
-        string Name "품목명"
-        string Code PK "품목코드"
-        string CategoryCode FK "부류코드"
+    "품목" {
+        string 이름 "Name"
+        string 코드 PK "Code"
+        string 부류코드 FK "CategoryCode"
     }
-    "Variety" {
-        string Code PK "품종코드"
-        string CategoryCode FK "부류코드"
-        string ProductCode FK "품목코드"
+    "품종" {
+        string 코드 PK "Code"
+        string 부류코드 FK "CategoryCode"
+        string 품목코드 FK "ProductCode"
     }
-    "WholesaleMarket" {
-        string Name "도매시장명"
-        string Code PK "도매시장코드"
-        string Address "주소"
+    "등급" {
+        string 이름 "Name"
+        string 코드 PK "Code"
     }
-    "WholesaleCompany" {
-        string MarketCode FK "도매시장코드"
+    "규격" {
+        string 이름 "Name"
+        string 코드 PK "Code"
     }
-    "WholesalePrice" {
-        string Date PK "날짜"
-        string Price "가격"
-        string CompanyCode FK "도매법인코드"
-        string VarietyCode FK "품종코드"
-        string GradeCode FK "등급코드"
+    "도매시장" {
+        string 이름 "Name"
+        string 코드 PK "Code"
+        string 주소 "Address"
     }
-    "Grade" {
-        string Name "등급명"
-        string Code PK "등급코드"
+    "도매법인" {
+        string 이름 "Name"
+        string 코드 PK "Code"
+        string 시장코드 FK "MarketCode"
+    }
+    "도매가격" {
+        string 날짜 PK "Date"
+        decimal 최소금액 "MinimumAmount"
+        decimal 평균금액 "AverageAmount"
+        decimal 최대금액 "MaximumAmount"
+        int 경매수 "AuctionCount"
+        int 거래수량 "TradingQuantity"
+        int 묶음수량 "BundleQuantity"
+        string 법인코드 FK "CompanyCode"
+        string 품종코드 FK "VarietyCode"
+        string 등급코드 FK "GradeCode"
+        string 규격코드 FK "StandardCode"
     }
 
 
