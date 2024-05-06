@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 농림축산식품_공공데이터.도매.ResponseModel
+namespace 농림축산식품_공공데이터.도매
 {
-    internal class 품목별_실시간_경매속보_조회Response
+    public class 전국_도매시장_일별_경락가격APIService
     {
     }
 }
