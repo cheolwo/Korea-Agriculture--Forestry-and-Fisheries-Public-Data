@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("농림축산식품 공공데이터")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65aa721a4d14ac45f9af7d7779e84ed796802795")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+314e26b41695c7e3398bdc0e4274b979cf742b1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("농림축산식품 공공데이터")]
 [assembly: System.Reflection.AssemblyTitleAttribute("농림축산식품 공공데이터")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
